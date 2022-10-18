@@ -67,9 +67,9 @@
 			isa = PBXGroup;
 			children = (
 				8392FE0F28FEACE7009DED2E /* App */,
-				8392FE1128FEAD0B009DED2E /* ViewControllers */,
-				8392FE0D28FEAA46009DED2E /* Models */,
 				8392FE0E28FEAA50009DED2E /* Services */,
+				8392FE0D28FEAA46009DED2E /* Models */,
+				8392FE1128FEAD0B009DED2E /* ViewControllers */,
 				8392FE1028FEACF1009DED2E /* Storyboard */,
 				8392FDF828FE86F4009DED2E /* Assets.xcassets */,
 			);
@@ -114,10 +114,10 @@
 		8392FE1128FEAD0B009DED2E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8392FE0328FE8B4E009DED2E /* TabBarViewController.swift */,
+				8392FE0528FE8D4D009DED2E /* ContactListViewController.swift */,
 				8392FDF328FE86F4009DED2E /* ContactInfoViewController.swift */,
 				8392FE0728FE8E89009DED2E /* PersonListViewController.swift */,
-				8392FE0528FE8D4D009DED2E /* ContactListViewController.swift */,
-				8392FE0328FE8B4E009DED2E /* TabBarViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
