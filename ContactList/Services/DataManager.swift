@@ -5,7 +5,6 @@
 //  Created by Айтолкун Анарбекова on 18/10/22.
 //
 
-import Foundation
 
 class DataManager {
     let names = [
@@ -27,7 +26,7 @@ class DataManager {
         "Myrzabai kyzy",
         "Turanova",
         "Kuttubekova",
-        "Anarbek kyzy",
+        "Janysheva",
         "Mukasheva",
         "Toktogulova",
         "Sheripbekova",
@@ -59,7 +58,6 @@ class DataManager {
         "erkeai@mail.ru",
         "anuri@gmail.com"
     ]
-
 
 }
     

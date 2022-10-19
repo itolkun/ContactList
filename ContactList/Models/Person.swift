@@ -5,8 +5,6 @@
 //  Created by Айтолкун Анарбекова on 18/10/22.
 //
 
-
-
 struct Person {
     let name: String
     let surname: String

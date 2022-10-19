@@ -29,6 +29,7 @@ class PersonListViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "person", for: indexPath)
         let person = contactList[indexPath.section]
         var content = cell.defaultContentConfiguration()
+        
         if indexPath.row == 0 {
             content.image = UIImage(systemName: "phone")
             content.text = person.phone
@@ -38,7 +39,6 @@ class PersonListViewController: UITableViewController {
         }
         
         cell.contentConfiguration = content
-
         return cell
     }
 
