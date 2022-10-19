@@ -17,20 +17,20 @@ class DataManager {
         "Aijan",
         "Alfiya",
         "Perizat",
-        "Uulbolsun"
+        "Cholpon"
     ]
 
     let surnames = [
         "Anarbekova",
         "Akynbekova",
-        "Myrzabai kyzy",
+        "Myrzabaeva",
         "Turanova",
         "Kuttubekova",
         "Janysheva",
         "Mukasheva",
         "Toktogulova",
-        "Sheripbekova",
-        "Emilbekova"
+        "Jenalieva",
+        "Tynalieva"
     ]
 
     let phones = [
