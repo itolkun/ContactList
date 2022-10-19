@@ -11,11 +11,6 @@ class PersonListViewController: UITableViewController {
     
     var contactList = Person.getContactList()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
-
     // MARK: - Table view data source
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -26,14 +21,15 @@ class PersonListViewController: UITableViewController {
         2
     }
 
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "person", for: indexPath)
         let person = contactList[indexPath.section]
         var content = cell.defaultContentConfiguration()
         if indexPath.row == 0 {
+            content.image = UIImage(systemName: "phone")
             content.text = person.phone
         } else {
+            content.image = UIImage(systemName: "tray")
             content.text = person.email
         }
         
@@ -48,11 +44,5 @@ class PersonListViewController: UITableViewController {
         return person.nameSurname
         
     }
-
-   
-
-   
-
-    
 
 }

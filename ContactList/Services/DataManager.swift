@@ -8,7 +8,7 @@
 import Foundation
 
 class DataManager {
-    var names = [
+    let names = [
         "Aitolkun",
         "Minara",
         "Aidamir",
@@ -21,7 +21,7 @@ class DataManager {
         "Uulbolsun"
     ]
 
-    var surnames = [
+    let surnames = [
         "Anarbekova",
         "Akynbekova",
         "Myrzabai kyzy",
@@ -34,7 +34,7 @@ class DataManager {
         "Emilbekova"
     ]
 
-    var phones = [
+    let phones = [
         "0778702705",
         "0700677670",
         "+8618642318141",
@@ -47,7 +47,7 @@ class DataManager {
         "0772433533"
     ]
 
-     var emails = [
+     let emails = [
         "totita@list.ru",
         "minik07@mail.ru",
         "simarik@bk.ru",

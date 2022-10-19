@@ -5,8 +5,6 @@
 //  Created by Айтолкун Анарбекова on 18/10/22.
 //
 
-import Foundation
-
 
 
 struct Person {
@@ -37,11 +35,8 @@ struct Person {
                     email: emails.removeLast()
                 )
                 persons.append(person)
-
             }
         }
-        
-       
         return persons
     }
 }
