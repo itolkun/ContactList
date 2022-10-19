@@ -9,16 +9,20 @@ import UIKit
 
 class PersonListViewController: UITableViewController {
     
-    var contactList = Person.getContactList()
+    private var contactList = Person.getContactList()
 
     // MARK: - Table view data source
-    
     override func numberOfSections(in tableView: UITableView) -> Int {
         contactList.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         2
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        let person = contactList[section]
+        return person.nameSurname
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -36,13 +40,6 @@ class PersonListViewController: UITableViewController {
         cell.contentConfiguration = content
 
         return cell
-    }
-    
-    
-    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        let person = contactList[section]
-        return person.nameSurname
-        
     }
 
 }
